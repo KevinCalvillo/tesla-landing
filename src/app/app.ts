@@ -12,7 +12,7 @@ import { Carga } from "./carga/carga";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Header, HeroSection, ModelY, ModelX, Model3, ModelS, Powerwall, Carga],
+  imports: [Header, HeroSection, ModelY, ModelX, Model3, ModelS, Powerwall, Carga],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
